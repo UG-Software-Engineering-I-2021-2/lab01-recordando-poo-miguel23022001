@@ -4,13 +4,13 @@
 <span class="fc" id="L4">    } </span>
     @Override
         public String recargar(double litros) {
-<span class="nc" id="L7">            double currentTankSpace = this.capacidadTanque - this.combustible;</span>
-<span class="nc bnc" id="L8" title="All 2 branches missed.">            if(currentTankSpace - litros &lt; 0) {</span>
-<span class="nc" id="L9">                return &quot;No  se  puede  reabastecer  el  tanque,  esta  lleno&quot;;</span>
+<span class="fc" id="L7">            double currentTankSpace = this.capacidadTanque - this.combustible;</span>
+<span class="fc bfc" id="L8" title="All 2 branches covered.">            if(currentTankSpace - litros &lt; 0) {</span>
+<span class="fc" id="L9">                return &quot;No  se  puede  reabastecer  el  tanque,  esta  lleno&quot;;</span>
             }
             else {
-<span class="nc" id="L12">                this.combustible += litros;</span>
-<span class="nc" id="L13">                return &quot;La cantidad de combustible del vehiculo es: &quot; + this.combustible;</span>
+<span class="fc" id="L12">                this.combustible += litros;</span>
+<span class="fc" id="L13">                return &quot;La cantidad de combustible del vehiculo es: &quot; + this.combustible;</span>
             }
         }
 }

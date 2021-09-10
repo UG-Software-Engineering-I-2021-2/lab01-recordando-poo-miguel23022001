@@ -1,20 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-09T22:02:53 PET" name="EjemploVehiculoTest" finished-at="2021-09-09T22:02:53 PET" duration-ms="118">
+  <suite started-at="2021-09-09T22:35:53 PET" name="EjemploVehiculoTest" finished-at="2021-09-09T22:35:53 PET" duration-ms="107">
     <groups>
     </groups>
-    <test started-at="2021-09-09T22:02:53 PET" name="Command line test" finished-at="2021-09-09T22:02:53 PET" duration-ms="118">
+    <test started-at="2021-09-09T22:35:53 PET" name="Command line test" finished-at="2021-09-09T22:35:53 PET" duration-ms="107">
       <class name="EjemploVehiculoTest">
-        <test-method signature="test01()[pri:0, instance:EjemploVehiculoTest@64aad6db]" started-at="2021-09-09T22:02:53 PET" name="test01" finished-at="2021-09-09T22:02:53 PET" duration-ms="20" status="PASS">
+        <test-method signature="test01()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test01" finished-at="2021-09-09T22:35:53 PET" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-        <test-method signature="test02()[pri:0, instance:EjemploVehiculoTest@64aad6db]" started-at="2021-09-09T22:02:53 PET" name="test02" finished-at="2021-09-09T22:02:53 PET" duration-ms="3" status="PASS">
+        <test-method signature="test02()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test02" finished-at="2021-09-09T22:35:53 PET" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test02 -->
+        <test-method signature="test03()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test03" finished-at="2021-09-09T22:35:53 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03 -->
+        <test-method signature="test04()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test04" finished-at="2021-09-09T22:35:53 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04 -->
+        <test-method signature="test05()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test05" finished-at="2021-09-09T22:35:53 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05 -->
+        <test-method signature="test06()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test06" finished-at="2021-09-09T22:35:53 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06 -->
+        <test-method signature="test07()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test07" finished-at="2021-09-09T22:35:53 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07 -->
+        <test-method signature="test09()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test09" finished-at="2021-09-09T22:35:53 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09 -->
+        <test-method signature="test08()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test08" finished-at="2021-09-09T22:35:53 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08 -->
+        <test-method signature="test10()[pri:0, instance:EjemploVehiculoTest@2301b75]" started-at="2021-09-09T22:35:53 PET" name="test10" finished-at="2021-09-09T22:35:53 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
       </class> <!-- EjemploVehiculoTest -->
     </test> <!-- Command line test -->
   </suite> <!-- EjemploVehiculoTest -->
