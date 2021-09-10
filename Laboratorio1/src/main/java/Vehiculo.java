@@ -1,4 +1,4 @@
-public class Vehiculo {
+public abstract class Vehiculo {
     protected double combustible; // Cantidad de combustible
     protected double consumo;
     protected double capacidadTanque;
@@ -9,41 +9,40 @@ public class Vehiculo {
         this.consumo = consumo;
     }
 
-    public void setCombustible(double combustible_){
-        combustible = combustible_;
+    public void setCombustible(double combustible){
+        this.combustible = combustible;
     }
 
-    public void setConsumo(double consumo_){
-        consumo = consumo_;
+    public void setConsumo(double consumo){
+        this.consumo = consumo;
     }
 
-    public void setcapacidadTanque(double capacidadTanque_){
-        capacidadTanque = capacidadTanque_;
+    public void setcapacidadTanque(double capacidadTanque){
+        this.capacidadTanque = capacidadTanque;
     }
 
     public double getCombustible(){ //cantidad de combustible
-        return combustible;
+        return this.combustible;
     }
 
     public double getConsumo(){
-        return consumo;
+        return this.consumo;
     }
 
     public double getcapacidadTanque(){
-        return capacidadTanque;
+        return this.capacidadTanque;
     }
 
-    public void viaje(double km) {
+    public String viaje(double km) {
         double combustibleConsumido = km * consumo;
         if(this.combustible - combustibleConsumido < 0) {
             // Impresion
-            Main.logger.info("Vehiculo necesita reabastecimiento de combustible\n");
+            return "Vehiculo necesita reabastecimiento de combustible";
         } else {
             this.combustible -= combustibleConsumido;
             // Impresion
-            Main.logger.info(String.format("Vehiculo viajó %.1f km y aun tiene %.2f de combustible.\n", km, this.combustible));
+            return "Vehiculo viajo " + km + " km y aun tiene " + String.format("%.2f",this.combustible) + " de combustible";
         }
     }
-
-    public void recargar(double litros) {}
+    public abstract String recargar(double litros);
 }
