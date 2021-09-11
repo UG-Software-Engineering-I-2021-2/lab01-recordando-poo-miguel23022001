@@ -1,4 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-lab01-sec1-miProyecto-miguel23022001,default,Automovil,0,35,0,2,0,7,0,3,0,2
-lab01-sec1-miProyecto-miguel23022001,default,Camion,0,37,0,2,0,7,0,3,0,2
-lab01-sec1-miProyecto-miguel23022001,default,Vehiculo,21,55,0,2,9,10,6,3,6,2
+lab01-sec1-miProyecto-miguel23022001,camion,Camion,0,38,0,2,0,7,0,3,0,2
+lab01-sec1-miProyecto-miguel23022001,automovil,Automovil,0,36,0,2,0,7,0,3,0,2
+lab01-sec1-miProyecto-miguel23022001,vehiculo,Vehiculo,21,56,0,2,9,10,6,3,6,2

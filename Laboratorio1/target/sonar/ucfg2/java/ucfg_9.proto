@@ -1,52 +1,9 @@
 
-#Vehiculo#viaje(D)Ljava/lang/String;Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java$ $("2"1*√
-2Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java( ((F"∫
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java( ((G53
-1Vehiculo necesita reabastecimiento de combustible*ù
-1Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java* *(≈
-¬
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java, ,()
-%0java.lang.String"__concat*
-Vehiculo viajo *
-""ÿ
-’
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java, ,(>
-%1java.lang.String"__concat*
-
-%0java.lang.String*
- km y aun tiene ò
-ï
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java,A ,(g
-%2java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*
-%.2f*
-""‹
-Ÿ
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java, ,(g
-%3java.lang.String"__concat*
-
-%1java.lang.String*
-
-%2java.lang.String◊
-‘
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java, ,({
-%4java.lang.String"__concat*
-
-%3java.lang.String*
- de combustible"ù
-Ä
-vC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Vehiculo.java, ,(|
-
-%4java.lang.String:
-""B
-
-Vehiculo
+vehiculo.Vehiculo#getConsumo()Dâ
+C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/vehiculo/Vehiculo.java ("1*¶
+1â
+C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/vehiculo/Vehiculo.java ("î
+â
+C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/vehiculo/Vehiculo.java (
+""B
+vehiculo.Vehiculo

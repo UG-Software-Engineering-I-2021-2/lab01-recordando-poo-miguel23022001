@@ -1,3 +1,4 @@
+package vehiculo;
 public abstract class Vehiculo {
     protected double combustible; // Cantidad de combustible
     protected double consumo;

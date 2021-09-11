@@ -1,3 +1,5 @@
+package camion;
+import vehiculo.Vehiculo;
 public class Camion extends Vehiculo {
     public Camion(double combustible, double capacidadTanque, double consumo) {
         super(combustible, capacidadTanque, consumo);

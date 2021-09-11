@@ -1,22 +1,22 @@
 
-'Automovil#recargar(D)Ljava/lang/String;Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java ("2"1*»
-2Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java	 	(M"æ
-Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java	 	(N86
-4No  se  puede  reabastecer  el  tanque,  esta  lleno*é
-1Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java („
-‡
-Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java (X
++camion.Camion#recargar(D)Ljava/lang/String;Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java ("2"1*–
+2Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java (I"¬
+Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java (J86
+4No  se  puede  reabastecer  el  tanque,  esta  lleno*ö
+1Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java (Á
+‰
+Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java (T
 %0java.lang.String"__concat*0.
 ,La cantidad de combustible del vehiculo es: *
-"""û
-Å
-wC:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/Automovil.java (Y
+"""¢
+Ö
+{C:/Users/miana/OneDrive/Documentos/GitHub/lab01-recordando-poo-miguel23022001/Laboratorio1/src/main/java/camion/Camion.java (U
 
 %0java.lang.String:
-""B
-	Automovil
+""B
+camion.Camion

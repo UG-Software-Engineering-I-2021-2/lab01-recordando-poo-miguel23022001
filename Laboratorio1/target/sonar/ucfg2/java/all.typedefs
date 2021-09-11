@@ -15,19 +15,22 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()Iô
-Vehiculojava.lang.Object6
-getcapacidadTanque()Vehiculo#getcapacidadTanque()D&
-getConsumo()Vehiculo#getConsumo()D$
-<init>(DDD)Vehiculo#<init>(DDD)V(
-setConsumo(D)Vehiculo#setConsumo(D)V.
-getCombustible()Vehiculo#getCombustible()D/
-viaje(D)#Vehiculo#viaje(D)Ljava/lang/String;8
-setcapacidadTanque(D)Vehiculo#setcapacidadTanque(D)V0
-setCombustible(D)Vehiculo#setCombustible(D)Vt
-	AutomovilVehiculo%
-<init>(DDD)Automovil#<init>(DDD)V6
-recargar(D)'Automovil#recargar(D)Ljava/lang/String;(
+hashCode()java.lang.Object#hashCode()IÍ
+vehiculo.Vehiculojava.lang.Object?
+getcapacidadTanque()'vehiculo.Vehiculo#getcapacidadTanque()D/
+getConsumo()vehiculo.Vehiculo#getConsumo()D-
+<init>(DDD)vehiculo.Vehiculo#<init>(DDD)V1
+setConsumo(D) vehiculo.Vehiculo#setConsumo(D)V7
+getCombustible()#vehiculo.Vehiculo#getCombustible()D8
+viaje(D),vehiculo.Vehiculo#viaje(D)Ljava/lang/String;A
+setcapacidadTanque(D)(vehiculo.Vehiculo#setcapacidadTanque(D)V9
+setCombustible(D)$vehiculo.Vehiculo#setCombustible(D)Vâ
+camion.Camionvehiculo.Vehiculo)
+<init>(DDD)camion.Camion#<init>(DDD)V:
+recargar(D)+camion.Camion#recargar(D)Ljava/lang/String;õ
+automovil.Automovilvehiculo.Vehiculo/
+<init>(DDD) automovil.Automovil#<init>(DDD)V@
+recargar(D)1automovil.Automovil#recargar(D)Ljava/lang/String;(
 java.io.Serializablejava.lang.Object(
 java.lang.Comparablejava.lang.Object”
 java.lang.CharSequencejava.lang.ObjectE
@@ -165,7 +168,4 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;2
 checkIndex(II) java.lang.String#checkIndex(II)VX
 !<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V%
 value()java.lang.String#value()[B`
-%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Zk
-CamionVehiculo"
-<init>(DDD)Camion#<init>(DDD)V3
-recargar(D)$Camion#recargar(D)Ljava/lang/String;
+%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z

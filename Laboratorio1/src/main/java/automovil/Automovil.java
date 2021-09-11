@@ -1,4 +1,6 @@
-class Automovil extends Vehiculo {
+package automovil;
+import vehiculo.Vehiculo;
+public class Automovil extends Vehiculo {
     public Automovil (double combustible, double capacidadTanque, double consumo) {
         super(combustible, capacidadTanque, consumo);
     } 
