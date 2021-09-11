@@ -3,6 +3,7 @@ import org.testng.annotations.Test;
 
 import automovil.Automovil;
 import camion.Camion;
+import vehiculo.Vehiculo;
 
 public class EjemploVehiculoTest {
 
@@ -89,5 +90,17 @@ public class EjemploVehiculoTest {
         Camion toyota = new Camion(10, 100, 1.6);
         toyota.setCombustible(13.4);
         Assert.assertEquals(toyota.getCombustible(),13.4);
+    }
+
+    // Stress tests
+    @Test(threadPoolSize = 80, invocationCount = 10)
+    public void StressTest01() {
+        Vehiculo toyota = new Camion(10, 100, 1.6);
+        Assert.assertEquals(toyota.recargar(40), "La cantidad de combustible del vehiculo es: 48.0");
+    }
+    @Test(threadPoolSize = 80, invocationCount = 10)
+    public void StressTest02() {
+        Vehiculo toyota = new Camion(90, 100, 1.6);
+        Assert.assertEquals(toyota.recargar(40), "No  se  puede  reabastecer  el  tanque,  esta  lleno");
     }
 }
